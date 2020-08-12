@@ -87,3 +87,8 @@ button {
   -o-transition: opacity .4s;
   -ms-transition: opacity .4s;
 }
+
+.customModal .ant-modal-content, .customModal .ant-modal-header, .ant-modal-content .ant-modal-body {
+  border-bottom: none;
+  border-radius: 30px;
+}

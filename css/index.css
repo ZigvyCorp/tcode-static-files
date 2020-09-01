@@ -97,3 +97,7 @@ button {
   border-bottom: none;
   border-radius: 30px;
 }
+
+.customPopOver .ant-popover-inner {
+  border-radius: 10px;
+}

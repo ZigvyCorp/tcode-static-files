@@ -8,6 +8,22 @@ button {
   outline: none;
 }
 
+@media screen and (min-width: 768px) {
+  .customModal.width-auto {
+    max-width: 80vw;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .customModal.width-auto {
+    max-width: 40vw;
+  }
+}
+
+.customModal.width-auto {
+  width: auto !important;
+}
+
 .customModal .ant-modal-content, .customModal .ant-modal-header, .ant-modal-content .ant-modal-body {
   border-bottom: none;
   border-radius: 30px;

@@ -20,6 +20,12 @@ button {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .customModal.width-auto {
+    min-width: 400px;
+  }
+}
+
 .customModal.width-auto {
   width: auto !important;
 }

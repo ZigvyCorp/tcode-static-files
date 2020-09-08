@@ -24,6 +24,11 @@ button {
   width: auto !important;
 }
 
+.customModal .ant-modal-close {
+  right: 10px;
+  top: 10px;
+}
+
 .customModal .ant-modal-content, .customModal .ant-modal-header, .ant-modal-content .ant-modal-body {
   border-bottom: none;
   border-radius: 30px;

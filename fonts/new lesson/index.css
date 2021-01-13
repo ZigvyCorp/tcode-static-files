@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'New Lesson';
+  src: url('HYy1gj.eot');
+  src: url('HYy1gj.eot?#iefix') format('embedded-opentype'),
+      url('HYy1gj.woff2') format('woff2'),
+      url('HYy1gj.woff') format('woff'),
+      url('HYy1gj.ttf') format('truetype'),
+      url('HYy1gj.svg#HYy1gj') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

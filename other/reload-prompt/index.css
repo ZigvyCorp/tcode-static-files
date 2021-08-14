@@ -1,0 +1,44 @@
+.prompt-reload-container {
+  position: fixed;
+  bottom: 5vmin;
+  right: 5vmin;
+  z-index: 10000;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+  padding: 12px 20px;
+  color: #fafafa;
+  background: #45ca16;
+  opacity: 0;
+  font-size: 13px;
+  transition: opacity 0.5s ease;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.prompt-reload-container.show {
+  opacity: 1;
+}
+.prompt-reload-container > h5 {
+  font-size: 1.1em;
+  margin: 0 1em 0.5em 0;
+  color: #fafafa;
+}
+.prompt-reload-container > button {
+  cursor: pointer;
+}
+.prompt-reload-container .prompt-btn-reload {
+  border-radius: 12px;
+  padding: 4px 20px;
+  background-color: #ffffff;
+  color: #0def1f;
+  border: none;
+  outline: none;
+}
+.prompt-reload-container .prompt-btn-close {
+  color: #fdfdfd;
+  position: absolute;
+  text-shadow: 0px 0px 12px #040404;
+  top: 10px;
+  background: none;
+  border: none;
+  outline: none;
+  right: 10px;
+}

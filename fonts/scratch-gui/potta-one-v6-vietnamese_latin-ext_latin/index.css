@@ -1,0 +1,13 @@
+/* potta-one-regular - vietnamese_latin-ext_latin */
+@font-face {
+  font-family: 'Potta One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('potta-one-v6-vietnamese_latin-ext_latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('potta-one-v6-vietnamese_latin-ext_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('potta-one-v6-vietnamese_latin-ext_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('potta-one-v6-vietnamese_latin-ext_latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('potta-one-v6-vietnamese_latin-ext_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('potta-one-v6-vietnamese_latin-ext_latin-regular.svg#PottaOne') format('svg'); /* Legacy iOS */
+}

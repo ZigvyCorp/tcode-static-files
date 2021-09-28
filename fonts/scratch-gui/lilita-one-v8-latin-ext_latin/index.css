@@ -1,0 +1,13 @@
+/* lilita-one-regular - latin-ext_latin */
+@font-face {
+  font-family: 'Lilita One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('lilita-one-v8-latin-ext_latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('lilita-one-v8-latin-ext_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('lilita-one-v8-latin-ext_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('lilita-one-v8-latin-ext_latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('lilita-one-v8-latin-ext_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('lilita-one-v8-latin-ext_latin-regular.svg#LilitaOne') format('svg'); /* Legacy iOS */
+}

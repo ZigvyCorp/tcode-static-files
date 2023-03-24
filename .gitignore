@@ -1,2 +1,5 @@
 .DS_Store
 **/.DS_Store
+
+# for auto local generate message
+/js/full-block-msgs-local.js
